@@ -1,0 +1,77 @@
+
+
+var collection = 
+
+{"Name":null,
+"PublishedDate":null,
+
+"items":[
+{"AlternateText":null,
+"AudioUrl":null,
+"Caption":"A worker shovels stones at a road construction project in Siliguri, India.&#160;",
+"Credit":"By Diptendu Dutta, AFP/Getty Images",
+"Images":[{"ID":"201691",
+	"CropName":"published",
+	"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/01n120510-pg-horizontal.jpg",
+	"MediaHeight":"340",
+	"MediaWidth":"487",
+	"MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/01n120510-pg-horizontal-extralarge.jpg",
+	"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/01n120510-x-square.jpg",
+	"MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/01n120510x48.jpg"}],
+
+"Links":[{"Headline":null,"LinkText":"Your News: show us what\u0027s happening where you live",
+          "LinkUrl":"http://www.usatoday.com/community/photos/publicgallery.htm?plckGalleryID=1e85467e-912a-4ff9-8e33-f76d0b6a7906"}],
+"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/01n120510-pg-horizontal.jpg",
+"Name":"",
+"Source":null,
+"Type":"PhotoGalleryMediaItem",
+"Tags":["India","Siliguri"],
+"DateCaption":"5/10/2012"},
+
+{"AlternateText":null,"AudioUrl":null,"Caption":"An Israeli soldier chases a Palestinian demonstrator during a protest in Al-Khader village, West Bank.","Credit":"By Musa Al-Shaer, AFP/Getty Images","Images":[{"ID":"201692","CropName":"published",
+"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/02n120510-pg-horizontal.jpg","MediaHeight":"340","MediaWidth":"604","MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/02n120510-pg-horizontal-extralarge.jpg",
+"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/02n120510-x-square.jpg","MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/02n120510x48.jpg"}],"Links":[],"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/02n120510-pg-horizontal.jpg","Name":"","Source":null,"Type":"PhotoGalleryMediaItem","Tags":["Palestinian","Israeli","West Bank"]
+,"DateCaption":"5/10/2012"},
+
+{"AlternateText":null,"AudioUrl":null,"Caption":"Vehicles burn after a bombing in Damascus, Syria. Fifty-five people were killed when two suicide car bombs exploded in the city during morning rush hour.","Credit":"SANA via AFP/Getty Images","Images":[{"ID":"201693","CropName":"published",
+"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/03n120510-pg-horizontal.jpg","MediaHeight":"340","MediaWidth":"604","MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/03n120510-pg-horizontal-extralarge.jpg",
+"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/03n120510-x-square.jpg","MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/03n120510x48.jpg"}],"Links":[{"Headline":null,"LinkText":"Photo Gallery: Unrest in Syria","LinkUrl":"http://mediagallery.usatoday.com/Unrest in Syria/G2126"}],"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/03n120510-pg-horizontal.jpg","Name":"","Source":null,"Type":"PhotoGalleryMediaItem","Tags":["Syria","Damascus","bomb"],
+"DateCaption":"5/10/2012"},
+
+{"AlternateText":null,"AudioUrl":null,"Caption":"Egyptian students demonstrate outside Cairo University to demand the release of students arrested during clashes with army troops last week.","Credit":"By Gianluigi Guercia, AFP/Getty Images","Images":[{"ID":"201694","CropName":"published",
+"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/04n120510-pg-horizontal.jpg","MediaHeight":"340","MediaWidth":"604","MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/04n120510-pg-horizontal-extralarge.jpg",
+"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/04n120510-x-square.jpg","MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/04n120510x48.jpg"}],"Links":[],"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/04n120510-pg-horizontal.jpg","Name":"","Source":null,"Type":"PhotoGalleryMediaItem","Tags":["Egypt","Cairo","students"],"DateCaption":"5/10/2012"},
+
+{"AlternateText":null,"AudioUrl":null,"Caption":"A student sings during a protest in Colombo, Sri Lanka. Students demonstrated against a government plan that will end the country\u0027s free education system.","Credit":"By Eranga Jayawardena, AP","Images":[{"ID":"201695","CropName":"published",
+"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/05n120510-pg-horizontal.jpg","MediaHeight":"340","MediaWidth":"604","MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/05n120510-pg-horizontal-extralarge.jpg",
+"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/05n120510-x-square.jpg","MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/05n120510x48.jpg"}],"Links":[],"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/05n120510-pg-horizontal.jpg","Name":"","Source":null,"Type":"PhotoGalleryMediaItem","Tags":["Sri Lanka","Colombo","education"],"DateCaption":"5/10/2012"},
+
+{"AlternateText":null,"AudioUrl":null,"Caption":"John Schreiner walks with his dog, Gunther, and pet camel, Calypso, on Wednesday in Manito Park in Spokane, Wash. Schreiner is a&#160;local businessman and exotic farm owner.&#160;","Credit":"By Dan Pelle, The Spokesman-Review, via AP","Images":[{"ID":"201696","CropName":"published",
+"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/06n120510-pg-horizontal.jpg","MediaHeight":"340","MediaWidth":"604","MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/06n120510-pg-horizontal-extralarge.jpg",
+"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/06n120510-x-square.jpg","MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/06n120510x48.jpg"}],"Links":[],"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/06n120510-pg-horizontal.jpg","Name":"","Source":null,"Type":"PhotoGalleryMediaItem","Tags":["Washington","Spokane","camel"],"DateCaption":"5/9/2012"},
+
+{"AlternateText":null,"AudioUrl":null,"Caption":"A boy plays on a swing at sunset Wednesday in Herat, Afghanistan.","Credit":"By Aref Karimi, AFP/Getty Images","Images":[{"ID":"201697","CropName":"published",
+"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/07n120510-pg-horizontal.jpg","MediaHeight":"340","MediaWidth":"490","MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/07n120510-pg-horizontal-extralarge.jpg",
+"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/07n120510-x-square.jpg","MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/07n120510x48.jpg"}],"Links":[],"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/07n120510-pg-horizontal.jpg","Name":"","Source":null,"Type":"PhotoGalleryMediaItem","Tags":["Afghanistan","Herat"],
+"DateCaption":"5/9/2012"},
+
+{"AlternateText":null,
+"AudioUrl":null,
+"Caption":"Boys swim in a well at Nizamuddin Dargah in New Delhi, India.",
+"Credit":"By Manan Vatsyayana, AFP/Getty Images",
+"Images":[{"ID":"201698","CropName":"published",
+		"MediaPath":"http://i.usatoday.net/news/gallery/2012/n120510_day/08n120510-pg-horizontal.jpg",
+		"MediaHeight":"340",
+		"MediaWidth":"604",
+		"MediaPathLarge":"http://i.usatoday.net/news/gallery/2012/n120510_day/08n120510-pg-horizontal-extralarge.jpg",
+		"MediaPathSquare98":"http://i.usatoday.net/news/gallery/2012/n120510_day/08n120510-x-square.jpg",
+		"MediaPathSquare48":"http://i.usatoday.net/news/gallery/2012/n120510_day/08n120510x48.jpg"}],
+"Links":[],
+"MediaUrl":"http://i.usatoday.net/news/gallery/2012/n120510_day/08n120510-pg-horizontal.jpg",
+"Name":"",
+"Source":null,
+"Type":"PhotoGalleryMediaItem",
+"Tags":["India","New Dehli"],
+"DateCaption":"5/10/2012"}
+
+]};

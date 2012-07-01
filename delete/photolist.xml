@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<root>
+	<photos topic="En fotos: los mundos en miniatura de un artista japonés" path="filepath">
+		<photo>
+			<path>file:///C:/Documents and Settings/dshresth/Desktop/cover/photos/cover1.jpg</path>
+			<caption>photo1  turístico hawaiano  años </caption>
+		</photo>
+		<photo>
+			<path>file:///C:/Documents and Settings/dshresth/Desktop/cover/photos/cover2.jpg</path>
+			<caption>photo2  plástico y resina acrílica. transformó en  </caption>
+		</photo>
+		<photo>
+			<path>file:///C:/Documents and Settings/dshresth/Desktop/cover/photos/cover3.jpg</path>
+			<caption>photo3</caption>
+		</photo>
+	</photos>
+	<photos topic="En fotos: los mundos en miniatura de un artista japonés" path="filepath">
+		<photo>
+			<path>file:///C:/Documents and Settings/dshresth/Desktop/cover/photos/cover3.jpg</path>
+			<caption>Second topic 1</caption>
+		</photo>
+		<photo>
+			<path>file:///C:/Documents and Settings/dshresth/Desktop/cover/photos/president.jpg</path>
+			<caption>Second topic 2</caption>
+		</photo>
+	</photos>
+</root>

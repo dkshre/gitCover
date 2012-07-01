@@ -1,0 +1,55 @@
+<!-- radiorhythmz -->
+<div>
+    <object data="http://ckd.radiorz.com/rhysilver.swf" type="application/x-shockwave-flash" width="300" height="20">
+      	<param name="movie" value="http://ckd.radiorz.com/rhysilver.swf" />
+
+	<param name="quality" value="high" />
+	<param name="autoplay" value="false" />
+    </object>
+</div>
+
+<!--kantipur FM-->
+<object id="Player" codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,7,1112" standby="Loading Microsoft Windows Media Player Components..." type="application/x-oleobject" classid="CLSID:22D6f312-B0F6-11D0-94AB-0080C74C7E95" style="width: 296px; height: 149px" height="149" width="296">
+<param name="filename" value="http://178.159.0.13:7248" />
+<param name="showcontrols" value="true" />
+<param name="showaudiocontrols" value="true" />
+<param name="autostart" value="false" />
+<param name="showvideocontrols" value="true" />
+<param name="volume" value="75" />
+<param name="fullscreen" value="true" />
+<param name="showstatusbar" value="true" />
+<param name="animationatstart" value="true" />
+<param name="nolabels" value="true" />
+<param name="clicktoplay" value="false" />
+<param name="enablecontextmenu" value="0" />
+<param name="scale" value="ShowAll" />
+<param name="zoom" value="true" />
+<param name="uimode" value="full" />
+<param name="sendmouseclickevents" value="1" />
+<param name="enabled" value="true" />
+<embed type="application/x-mplayer2" src="http://178.159.0.13:7248" name="MediaPlayer" pluginspage="http://www.microsoft.com/isapi/redir.dll?prd=windows&amp;sbp=mediaplayer&amp;ar=media&amp;sba=plugin&amp;" autosize="1" autostart="0" showcontrols="1" showdisplay="0" showstatusbar="1" enablecontextmenu="0" sendmouseclickevents="1" height="149" width="296">
+</embed>
+</object>
+
+<!--Hits FM -->
+<object id="Player" codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,7,1112" standby="Loading Microsoft Windows Media Player Components..." type="application/x-oleobject" classid="CLSID:22D6f312-B0F6-11D0-94AB-0080C74C7E95" style="width: 296px; height: 149px" height="149" width="296">
+<param name="filename" value="mms://202.52.237.122/hitsfm" />
+<param name="showcontrols" value="true" />
+<param name="showaudiocontrols" value="true" />
+<param name="autostart" value="false" />
+<param name="showvideocontrols" value="true" />
+<param name="volume" value="75" />
+<param name="fullscreen" value="true" />
+<param name="showstatusbar" value="true" />
+<param name="animationatstart" value="true" />
+<param name="nolabels" value="true" />
+<param name="clicktoplay" value="false" />
+<param name="enablecontextmenu" value="0" />
+<param name="scale" value="ShowAll" />
+<param name="zoom" value="true" />
+<param name="uimode" value="full" />
+<param name="sendmouseclickevents" value="1" />
+<param name="enabled" value="true" />
+<embed type="application/x-mplayer2" src="mms://202.52.237.122/hitsfm" name="MediaPlayer" pluginspage="http://www.microsoft.com/isapi/redir.dll?prd=windows&amp;sbp=mediaplayer&amp;ar=media&amp;sba=plugin&amp;" autosize="1" autostart="0" showcontrols="1" showdisplay="0" showstatusbar="1" enablecontextmenu="0" sendmouseclickevents="1" height="149" width="296">
+</embed>
+</object>

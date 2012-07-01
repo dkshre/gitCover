@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120307_galeria_monedas_espana.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120307_galeria_fotos_principe_harry_visita_caribe_aw.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120306_galeria_mexico_trueque_basura_lechuga_fp.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120305_galeria_fotos_bonsai_arte_jrg.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120305_fotos_amistades_inusuales_animales_tsb.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120305_galeria_misa_chavez_cuba_adz.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120304_fotos_rusia_eleccion_tsb.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120127_galeria_lectores_retratos_bbc_sc.shtml
+http://www.bbc.co.uk/mundo/video_fotos/2012/03/120302_fotos_tornados_estados_unidos_jgc.shtml
+
+</root>

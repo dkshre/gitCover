@@ -1,0 +1,118 @@
+<html>
+<head>
+<title> Photo frame</title>
+<meta http-equiv="content-language" content="es" />
+
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+	function createPhotoArray(){
+	   
+		if (window.XMLHttpRequest)
+		  {// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp=new XMLHttpRequest();	  
+			jsonhttp=new XMLHttpRequest();
+			jsonhttpusa=new XMLHttpRequest();
+		  }
+		else
+		  {// code for IE6, IE5
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			jsonhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		  }
+        //common variable declaraton
+		var twoDim = new Array();
+		var i = 0;
+		
+		//yahoo photos
+		jsonhttp.open("GET","yahoo.json",false);
+		jsonhttp.send();
+		var my_JSON_object=jsonhttp.responseText;
+		var myObject = eval('(' + my_JSON_object + ')');	 
+		for ( var c=0 ; c < myObject.photos.length; c++){
+			for(var d in myObject.photos[c].items){
+				//alert(i +"\n"+myObject.photos[c].items[d].id +"\n"+myObject.photos[c].items[d].lg_url +"\n"+ myObject.photos[c].items[d].alt);
+				twoDim[i]= new Array(4);
+				twoDim[i][0] = myObject.photos[c].items[d].lgw_url;
+				twoDim[i][1] = "";
+				twoDim[i][2] = "";
+				twoDim[i][3] = myObject.photos[c].items[d].caption;			
+				i++;
+			}
+		}	 
+		
+		//USA today	
+		jsonhttpusa.open("GET","usatoday.json",false);
+		jsonhttpusa.send();
+		my_JSON_object=jsonhttpusa.responseText;	
+		myObject = eval('(' + my_JSON_object + ')');	 
+        var photoArr = myObject.photos;
+
+	//alert(photoArr[0].items);
+	for(m  in photoArr[0].items){
+		//alert( m +" "+ (photoArr[0].items[m]).Caption + " " + (photoArr[0].items[m]).Images[0].MediaPath );   
+			twoDim[i]= new Array(4);
+			twoDim[i][0] = ((photoArr[0].items[m]).Images[0].MediaPathLarge);
+			twoDim[i][1] = "";
+			twoDim[i][2] = "";
+			twoDim[i][3] = (photoArr[0].items[m]).Caption;
+			i++
+		}
+	  
+		// bbc photos  
+		xmlhttp.open("GET","bbcPhotos.xml",false);
+		xmlhttp.send();
+		xmlDoc=xmlhttp.responseXML;		
+		var numOfPhotos = xmlDoc.getElementsByTagName("photo").length;
+		//alert(numOfPhotos);
+        //alert(numOfPhotos);
+		for(var j = 0 ; j < numOfPhotos; j++){
+			twoDim[i]= new Array(4);
+			//alert(xmlDoc.getElementsByTagName("photo")[i].childNodes[1].childNodes[0].nodeValue);
+			twoDim[i][0] = xmlDoc.getElementsByTagName("photo")[j].childNodes[1].childNodes[0].nodeValue;
+			twoDim[i][1] = "";
+			twoDim[i][2] = "";
+			twoDim[i][3] = xmlDoc.getElementsByTagName("photo")[j].getElementsByTagName("caption")[0].childNodes[0].nodeValue;
+			//alert(xmlDoc.getElementsByTagName("photo")[i].childNodes[2].childNodes[0].nodeValue);
+			//twoDim[i][3] = xmlDoc.getElementsByTagName("photo")[i].childNodes[1].childNodes[0].nodeValue;
+			i++;
+		}
+		
+		
+		
+		return twoDim;
+	}//createPhotoArray
+
+	var dk = createPhotoArray();
+	var mygallery=new fadeSlideShow({
+		wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+		dimensions: [1100, 700], //width/height of gallery in pixels. Should reflect dimensions of largest image
+		imagearray: dk,
+		displaymode: {type:'auto', pause:22000, cycles:0, wraparound:false},
+		persist: false, //remember last viewed slide and recall within same session?
+		fadeduration: 2000, //transition duration (milliseconds)
+		descreveal: "peekaboo",
+		//descreveal: "peekaboo",
+		togglerid: ""
+	})
+</script>
+
+</head>
+<body style="background-color:black;">
+
+	<div align="center">
+		<div id="fadeshow1"></div>
+	</div>
+
+</body>
+</html>
