@@ -49,7 +49,13 @@ sub getPhotoURLs{
 	die "Couldn't get it!" unless defined $page;
 
 	my $tree = HTML::TreeBuilder->new->parse($page); # make a tree structure  
-	my $anchor = $tree->look_down('_tag'=> 'div', 'id'=>'featured-galleries');
+	#my $anchor = $tree->look_down('_tag'=> 'div', 'id'=>'featured-galleries');
+	
+	#    <div class="yui3-bcarousel yui3-scrollview tpl-tile no-cite">
+    my $anchor = $tree->look_down('_tag'=> 'div', 'class'=>'yui3-bcarousel yui3-scrollview tpl-tile no-cite');
+
+    #    <ul class="bcarousel-items">
+    $anchor= $anchor->look_down( '_tag'=>'ul', 'class'=>'bcarousel-items');
 	
 	my @photoSites;
 	foreach my $item ($anchor->look_down( '_tag'=>'li')){
